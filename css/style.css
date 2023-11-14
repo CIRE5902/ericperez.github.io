@@ -9982,3 +9982,45 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background-color: #0BCEAF;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  animation: pulse 1.5s ease-in-out infinite alternate;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.skill {
+  padding: 10px 0;
+}
+
+.skill h3 {
+  margin: 5px 0;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
