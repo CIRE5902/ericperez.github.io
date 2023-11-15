@@ -10031,6 +10031,7 @@ h6,
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .idioma {
@@ -10056,4 +10057,32 @@ p {
 
 .sobre-mi p {
   color: black;
+}
+
+.contact-header {
+  font-size: 32px; /* Tamaño más grande para el encabezado */
+  margin-top: 0; /* Elimina el margen superior por defecto */
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Espacio entre el encabezado y las columnas */
+}
+
+.column {
+  width: 45%; /* ajusta el ancho de las columnas según lo que prefieras */
+}
+
+.div-separacion{
+  margin-bottom: 20px;
+}
+
+.contact-header {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.btn-social {
+  font-size: 20px; /* Ajusta el tamaño de los iconos si es necesario */
 }
