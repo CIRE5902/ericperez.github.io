@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color: #0BCEAF;
+  color: #909090;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #078571;
+  color: grey;
   text-decoration: underline;
 }
 
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #707070 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6483,7 +6483,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #0BCEAF !important;
+  border-color: grey !important;
 }
 
 .border-secondary {
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #A0A0A0 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9803,7 +9803,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: darkgrey;
 }
 
 @media (max-width: 991.98px) {
@@ -9988,7 +9988,7 @@ h6,
 }
 
 .card {
-  background-color: #0BCEAF;
+  background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   padding: 20px;
@@ -10026,7 +10026,7 @@ h6,
 }
 
 .habilidades-linguisticas {
-  background-color: #0BCEAF;
+  background-color: whitesmoke;
   padding: 20px;
   margin: 20px;
   border-radius: 8px;
@@ -10062,12 +10062,15 @@ p {
 .contact-header {
   font-size: 32px; /* Tamaño más grande para el encabezado */
   margin-top: 0; /* Elimina el margen superior por defecto */
+  color: white;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
   margin-top: 20px; /* Espacio entre el encabezado y las columnas */
+  color: white;
+
 }
 
 .column {
@@ -10085,4 +10088,58 @@ p {
 
 .btn-social {
   font-size: 20px; /* Ajusta el tamaño de los iconos si es necesario */
+}
+
+.proyectos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.proyecto {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.proyecto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.proyecto h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.proyecto p {
+  font-size: 0.9em;
+}
+
+.proyecto a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #fff;
+  background-color: #333;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.proyecto a:hover {
+  background-color: #555;
+}
+.proyecto img {
+  width: 100px; /* La imagen ocupará el 100% del ancho del contenedor */
+  height: auto; /* Mantener la proporción original de la imagen */
+  border-radius: 5px;
+}
+.rounded-icon {
+  width: 50px; /* Ajusta el tamaño de la imagen */
+  height: 50px; /* Ajusta el tamaño de la imagen */
+  border-radius: 50%; /* Esto hace que el borde sea redondeado */
 }
