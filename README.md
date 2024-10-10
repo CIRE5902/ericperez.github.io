@@ -1,2 +1,2 @@
 # ericperez.github.io
-Este es mi portafolio.
+Este es mi antiguo portafolio.
